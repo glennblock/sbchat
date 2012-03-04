@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "2.5.x",
+    "nib": "0.2.x",
+    "socket.io": "0.9.x",
+    "socket.io-sb": "0.0.x",
+    "stylus": "0.19.x",
+    "jade": "0.16.x",
+    "nconf": "0.5.x"
+  }
+}
