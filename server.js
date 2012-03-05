@@ -17,7 +17,7 @@ var express = require('express')
  */
 nconf.file({ file: './config.json'});
 process.env.AZURE_SERVICEBUS_NAMESPACE = nconf.get('AZURE_SERVICEBUS_NAMESPACE');
-process.env.AZURE_SERVICEBUS_ACCESS_KEY = nconf.get('AZURE_')
+process.env.AZURE_SERVICEBUS_ACCESS_KEY = nconf.get('AZURE_SERVICEBUS_ACCESS_KEY');
 
 var app = express.createServer();
 
